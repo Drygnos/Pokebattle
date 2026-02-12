@@ -73,7 +73,7 @@ jobs:
         with:
           path: ./dist
       
-      - name: test artifact run: ls -la ./dist
+      - name: test artifact run ls -la ./dist
         run: ls -la ./dist
 
   # Deployment job
