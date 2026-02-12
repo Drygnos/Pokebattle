@@ -16,9 +16,6 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: 'dist', // Output directory
-    rollupOptions: {
-      input: resolve(__dirname, 'index.html') // Entry point for the build
-    }
+    outDir: 'dist',
   }
 })
