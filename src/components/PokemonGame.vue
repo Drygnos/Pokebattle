@@ -14,8 +14,8 @@ const statOptions = [
   { name: 'HP', key: 'hp' },
   { name: 'Attaque', key: 'attack' },
   { name: 'Défense', key: 'defense' },
-  { name: 'Attaque Spé', key: 'special-attack' },
-  { name: 'Défense Spé', key: 'special-defense' },
+  { name: 'Attaque Spé', key: 'sp_atk' },
+  { name: 'Défense Spé', key: 'sp_def' },
   { name: 'Vitesse', key: 'speed' }
 ]
 
