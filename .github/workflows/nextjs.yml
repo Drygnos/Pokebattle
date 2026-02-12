@@ -72,6 +72,9 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
+      
+      - name: test artifact run: ls -la ./dist
+        run: ls -la ./dist
 
   # Deployment job
   deploy:
